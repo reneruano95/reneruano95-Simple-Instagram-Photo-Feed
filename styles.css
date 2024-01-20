@@ -1,37 +1,38 @@
 .title {
-    text-align: center;
+  text-align: center;
 }
 
 .container {
-    background-color: lightgray;
-    padding: 25px;
+  background-color: lightgray;
+  padding: 25px;
 }
 
-.feedContainer, .lastFeedContainer {
-    width: 400px;
-    background-color: white;
-    display: flex;
-    flex-direction: column;
-    margin: 0 auto 25px;
-    border-radius: 3%;
+.feedContainer,
+.lastFeedContainer {
+  width: 400px;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto 25px;
+  border-radius: 3%;
 }
 
 .feedHeader {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 0 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 10px;
 }
 
 .date {
-    color: lightgray;
+  color: lightgray;
 }
 
 .comments {
-    margin: 10px;
-    text-align: justify;
+  margin: 10px;
+  text-align: justify;
 }
 
 .lastFeedContainer {
-    margin-bottom: 0;
+  margin-bottom: 0;
 }
